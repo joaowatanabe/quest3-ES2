@@ -23,7 +23,15 @@ while(true){
         case 1:
             acelerar(carro);
             break;
-    
+
+        case 3:
+            subirMarcha(carro);
+            break;
+        
+        case 4:
+            descerMarcha(carro);
+            break;
+
         default:
             break;
     }
@@ -36,6 +44,18 @@ function acelerar(veiculo: Veiculo): void{
     veiculo.velocidade += veiculo.potencia*0.1;
     console.log(veiculo.velocidade);
 }}
+
+    function subirMarcha(veiculo: Veiculo): void{
+        if(veiculo.marchaAtual < veiculo.numeroMarchas){
+            veiculo.marchaAtual++;
+            console.log(veiculo.marchaAtual);
+        }}
+
+        function descerMarcha(veiculo: Veiculo): void{
+            if(veiculo.marchaAtual > 0){
+                veiculo.marchaAtual--;
+                console.log(veiculo.marchaAtual);
+            }}
 
 function criaVeiculo(): Veiculo{
     const veiculo: Veiculo = new Veiculo();
