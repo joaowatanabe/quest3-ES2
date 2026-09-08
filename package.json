@@ -1,0 +1,26 @@
+{
+  "name": "engenharia-software-2-git-demo",
+  "version": "1.0.0",
+  "description": "Projeto prático de demonstração para os alunos aprenderem Git na disciplina de Engenharia de Software II - Prof. Wagner Loch",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "engenharia-de-software-2",
+    "senac",
+    "typescript",
+    "poo"
+  ],
+  "author": "Prof. Wagner Loch",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
