@@ -5,7 +5,7 @@ Abaixo está a lista de requisitos para implementação e controle via Git (cada
 
 - [x] 1. Criar um objeto a partir da classe Veículo
 - [x] 2. Criar veículo (entrada de dados do usuário)
-- [ ] 3. Imprimir dados do veículo
+- [x] 3. Imprimir dados do veículo
 - [x] 4. Acelerar
 - [x] 5. Frear 
 - [ ] 6. Subir marcha
