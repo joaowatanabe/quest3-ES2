@@ -109,6 +109,6 @@ Com base no planejamento definido em [`requisitos.MD`](requisitos.MD), o andamen
 
 ## 👨‍💻 Autor e Créditos
 
-- **Aluno:** [João Watanabe](https://github.com/joaowatanabe)
+- **Aluno:** [João Watanabe](https://github.com/joaowatanabe) & [Lucas Campello](https://github.com/lucascampello0210-oss)
 - **Orientação:** Prof. Wagner Loch
 - **Disciplina:** Engenharia de Software II — Faculdade SENAC
