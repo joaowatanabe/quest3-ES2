@@ -8,5 +8,5 @@ Abaixo está a lista de requisitos para implementação e controle via Git (cada
 - [x] 3. Imprimir dados do veículo
 - [x] 4. Acelerar
 - [x] 5. Frear 
-- [ ] 6. Subir marcha
-- [ ] 7. Reduzir marcha
+- [x] 6. Subir marcha
+- [x] 7. Reduzir marcha
