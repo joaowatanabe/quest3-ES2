@@ -41,9 +41,9 @@ Com base no planejamento definido em [`requisitos.MD`](requisitos.MD), o andamen
 |---|---|:---:|---|
 | 1 | Criar objeto a partir da classe Veículo | Concluído | Instanciação e manipulação da classe `Veiculo` |
 | 2 | Criar veículo (entrada de dados) | Concluído | Função `criaVeiculo()` capturando dados via terminal |
-| 3 | Imprimir dados do veículo | Pendente | Exibição formatada dos atributos do veículo durante a execução |
+| 3 | Imprimir dados do veículo | Concluído | Exibição formatada dos atributos do veículo durante a execução |
 | 4 | Acelerar | Concluído | Função `acelerar()` (aumenta velocidade proporcional à potência quando engrenado) |
-| 5 | Frear | Pendente | Redução controlada da velocidade atual |
+| 5 | Frear | Concluído | Redução controlada da velocidade atual |
 | 6 | Subir marcha | Pendente | Incremento da marcha respeitando o limite máximo |
 | 7 | Reduzir marcha | Pendente | Decremento da marcha até o ponto morto (`0`) |
 
