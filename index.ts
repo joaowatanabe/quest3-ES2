@@ -23,8 +23,17 @@ while(true){
         case 1:
             acelerar(carro);
             break;
+
         case 2:
             frear(carro);
+            break;
+        
+        case 3:
+            subirMarcha(carro);
+            break;
+
+        case 4:
+            descerMarcha(carro);
             break;
         case 5:
             imprimirDados(carro);
@@ -42,6 +51,17 @@ function acelerar(veiculo: Veiculo): void{
     console.log(veiculo.velocidade);
 }}
 
+    function subirMarcha(veiculo: Veiculo): void{
+        if(veiculo.marchaAtual < veiculo.numeroMarchas){
+            veiculo.marchaAtual++;
+            console.log(veiculo.marchaAtual);
+        }}
+
+        function descerMarcha(veiculo: Veiculo): void{
+            if(veiculo.marchaAtual > 0){
+                veiculo.marchaAtual--;
+                console.log(veiculo.marchaAtual);
+            }}
 function frear(veiculo: Veiculo): void {
     if (veiculo.velocidade > 0) {
         veiculo.velocidade -= veiculo.potencia * 0.1;
